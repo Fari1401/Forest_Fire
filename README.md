@@ -50,7 +50,7 @@ Le but est de développer une méthodologie fiable pour identifier, cartographie
 - Utilisation uniquement de l’image après feu  
 - Méthodes de détection :
   - Photo-interprétation + histogramme  
-  - Méthode d’Otsu (seuillage automatique)
+  
 - Production d’un raster binaire : **Feu / Non Feu**  
 - Estimation de surface par comptage des pixels classifiés Feu
 
@@ -79,8 +79,8 @@ Le but est de développer une méthodologie fiable pour identifier, cartographie
   - NumPy  
   - Pandas  
   - Folium / Geemap  
-  - Google Earth Engine  
-  - QGIS  
+  - GEE API
+    
 
 ---
 
@@ -100,8 +100,4 @@ Le but est de développer une méthodologie fiable pour identifier, cartographie
 ## Questions non résolues
 
 - Quels seuils dNBR adopter pour une classification optimale ?  
-- La méthode d’Otsu est-elle fiable dans les paysages forestiers du Québec ?  
-- Les points FIRMS permettent-ils une validation suffisamment précise ?  
-- Quelle est la marge d’erreur par rapport aux cartes Wildfire Canada 2023 ?  
-- Quel est le meilleur choix d’image "avant feu" pour minimiser les variations saisonnières ?
 
